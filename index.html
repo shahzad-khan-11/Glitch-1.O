@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Waste Drop-off Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUtXBs5j--RVeKFZS8IZcK89TZtt1l7NI&libraries=places"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h2>EcoBin</h2>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#map-section">Map</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>E-Waste Drop-off Finder</h1>
+    <p>
+      Millions of electronic devices are thrown away unsafely every year.  
+      Our solution helps citizens easily find <b>verified e-waste collection centers</b> in Patna.  
+      Together, we can build a cleaner and greener future.
+    </p>
+    <a href="#map-section" class="btn">Find Centers</a>
+
+    <!-- Glass UI Stats -->
+    <div class="stats">
+      <div class="stat-card" data-aos="fade-up" data-target="15">
+        <div class="stat">0</div>
+        <p>Centers</p>
+      </div>
+      <div class="stat-card" data-aos="fade-up" data-target="1500">
+        <div class="stat">0</div>
+        <p>Devices Recycled</p>
+      </div>
+      <div class="stat-card" data-aos="fade-up" data-target="600">
+        <div class="stat">0</div>
+        <p>Citizens Helped</p>
+      </div>
+    </div>
+
+    <a href="#map-section" class="scroll-btn">Explore Map</a>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how" data-aos="fade-up">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>Search Area</h3>
+        <p>Type your area or center name to locate nearest e-waste centers.</p>
+      </div>
+      <div class="step">
+        <h3>Visit Center</h3>
+        <p>Go to the nearest verified center safely and conveniently.</p>
+      </div>
+      <div class="step">
+        <h3>Dispose Safely</h3>
+        <p>Drop your e-waste responsibly and contribute to a cleaner city.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section id="map-section">
+    <h2>Locate E-Waste Centers</h2>
+    <div class="map-controls">
+      <input type="text" id="search" placeholder="Search area or center name...">
+      <button id="locate-btn">Use My Location</button>
+    </div>
+    <div id="map"></div>
+    <a href="#home" class="top-btn">Back to Top</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About the Project</h2>
+    <p>
+      Developed for <b>GLITCH 1.0 Hackathon</b> under <b>Environment & Sustainability</b> category.  
+      Uses Google Maps API to show safe disposal centers in Patna.  
+      Helps citizens easily find and responsibly dispose of e-waste.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For feedback or suggestions, reach out to:</p>
+    <p><b>Shahzad Khan</b> | BCA Student, Amity University Patna</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 EcoBin Project | Built by Shahzad Khan</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200 });
+  </script>
+</body>
+</html>
