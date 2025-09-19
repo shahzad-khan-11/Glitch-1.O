@@ -1,28 +1,52 @@
 # Glitch-1.O
 EcoBin, This is my members - Shahzad Khan, Ayush Kumar
 
-echo "# ♻️ E-Waste Drop-off Finder
+# ♻️ E-Waste Drop-off Finder  
 
-## 📌 Overview
-E-Waste Drop-off Finder is a web-based tool that helps citizens locate verified e-waste collection centers in Patna.
-It uses Google Maps API to display clickable pins for centers.
+## 📌 Problem  
+Students and citizens often don’t know where to safely dispose of **e-waste** (old phones, laptops, batteries).  
+This leads to unsafe dumping, causing **pollution and health hazards**.  
 
-## 🚀 Features
-- Interactive Google Map centered on Patna
-- Clickable markers for collection centers
-- Info windows with details
-- Clean eco-friendly design
-- Responsive (desktop + mobile)
+---
 
-## 🛠️ Tech Stack
-- HTML, CSS, JavaScript
-- Google Maps JavaScript API
+## 💡 Solution  
+**E-Waste Drop-off Finder** is a **map-based web tool** that helps citizens locate **verified e-waste collection centers** in Patna.  
 
-## ⚡ How to Run
-1. Clone the repo
-2. Replace YOUR_API_KEY in index.html
-3. Open index.html in your browser
+- 🗺️ Interactive Google Map  
+- 📍 Clickable pins for collection centers  
+- ℹ️ Info windows showing details  
 
-## 👨‍💻 Author
-Shahzad Khan – BCA Student, Amity University Patna
-" > README.md
+---
+
+## ✅ Work Completed So Far  
+- Built basic website using **HTML, CSS, JS**  
+- Integrated **Google Maps API**  
+- Map centered on **Patna city**  
+- Added **5 e-waste centers** (hardcoded demo)  
+- **Clickable markers working** with info windows  
+- API key setup & testing completed  
+- Drafted professional project documentation  
+
+---
+
+## 🔄 Next Steps  
+- Expand to **10–15 collection centers** in Patna  
+- Add **search bar** to find nearest center  
+- Create **admin panel** for updating centers  
+- Explore **integration with municipal databases**  
+
+---
+
+## 🌱 Impact  
+- Promotes **responsible e-waste disposal**  
+- Reduces **toxic waste pollution**  
+- Increases **citizen awareness**  
+- Supports **Sustainable Development Goals (SDG 12)**  
+
+---
+
+## 👨‍💻 Author  
+**Shahzad Khan**  
+BCA Student – Amity University Patna  
+GLITCH 1.0 Hackathon (Environment & Sustainability Track)  
+
